@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Fira+Code:wght@400;500&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  min-height: 100vh;
+  background: #0f172a;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 16px;
+}
+
+.app {
+  width: 100%;
+  max-width: 580px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.app-title {
+  font-size: 30px;
+  font-weight: 800;
+  color: #f1f5f9;
+}
+
+.app-subtitle {
+  font-size: 13px;
+  color: #64748b;
+  margin-top: 6px;
+}
+
+.parent-box {
+  background: #1e293b;
+  border: 2px solid #3b82f6;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.child-box {
+  background: #0f172a;
+  border: 2px solid #8b5cf6;
+  border-radius: 14px;
+  padding: 20px;
+  margin-top: 16px;
+}
+
+.nested-box {
+  background: #1e293b;
+  border: 2px solid #10b981;
+  border-radius: 12px;
+  padding: 20px;
+  margin-top: 16px;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 4px 14px;
+  border-radius: 999px;
+  margin-bottom: 8px;
+}
+
+.tag.green  { background: #1d4ed8; color: #bfdbfe; }
+.tag.blue   { background: #6d28d9; color: #ddd6fe; }
+.tag.orange { background: #065f46; color: #a7f3d0; }
+
+.desc {
+  font-size: 13px;
+  color: #94a3b8;
+  margin-bottom: 4px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #0f172a;
+  border-radius: 12px;
+  padding: 14px 18px;
+  margin: 14px 0;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #10b981;
+  color: white;
+  font-size: 22px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #f1f5f9;
+}
+
+.role {
+  font-size: 13px;
+  color: #10b981;
+  font-weight: 600;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.item {
+  background: #0f172a;
+  border-radius: 10px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #64748b;
+}
+
+.value {
+  font-size: 13px;
+  font-weight: 600;
+  color: #e2e8f0;
+}
